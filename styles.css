@@ -1,0 +1,66 @@
+/*  */
+
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+html {
+  font-size: 62.5%;
+  overflow-x: hidden;
+}
+
+body {
+  font-family: sans-serif, Arial;
+  background-color: #f4f4f4;
+}
+
+header {
+  background: #333;
+  color: #fff;
+  padding: 10px 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.display-container {
+  padding: 20px;
+  display: flex;
+  gap: 1.5rem;
+}
+
+.book {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+  min-width: 20rem;
+  background: #fff;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  font-size: 1.6rem;
+  margin: 10px 0;
+  padding: 15px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+#bookForm {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+  margin: 2rem;
+}
+
+button {
+  background: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  padding: 10px;
+  cursor: pointer;
+}
+
+button:hover {
+  background: #0056b3;
+}
